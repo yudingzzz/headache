@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Tugas JavaScript</title>
+        <script>
+ function fn(){
+        var bilangan_1 = document.kirim.bil_1.value;
+        var bilangan_2 = document.kirim.bil_2.value;
+        var hasil = parseInt(bilangan_1)+parseInt(bilangan_2);
+        window.alert("hasil : "+hasil);
+ }
+
+        </script>
+        
+    </head>
+    <body>
+<form name="kirim">
+    <table>
+    <td>Bilangan 1: <input type="text" name="bil_1"><br></td>
+    <td>Bilangan 2: <input type="text" name="bil_2"><br>    </td>
+   <td> <input type="button" value="klik" onclick="fn()"> </td>
+</table>
+</form>
+    </body>
+</html>
